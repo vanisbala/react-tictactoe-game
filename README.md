@@ -11,7 +11,7 @@
 <img src="./src/media/tictactoe.png" width="120" height="120">
 
 ## Description
-- It allows to players to play . Player 1 is 'X' and Player 2 is 'O'
+- It allows two players to play . Player 1 is 'X' and Player 2 is 'O'
 - As soon as the Player click the cell it displays that players symbol on the Square and the next player turn on the Board
 - Board is the parent and Square is the child.
 - When one player wins by putting their symbol in a row then the board displays the Winner.
@@ -42,7 +42,7 @@ $ npm start
 - [React](https://reactjs.org/)
 
 ## Deployed Link
-- [See live Site](https://vanisbala.github.io/react-fetch-kural/)
+- [See live Site](https://vanisbala.github.io/react-tictactoe-game/)
 
 
 ## Author

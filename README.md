@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# tic-tac-toe game
+  Play a traditional tic-tac-toe game in which 2 players try to win by making a stright line by putting their symbol (x / O) on the cells
+  in alternative turns.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**What I Learned**
+- How to use react hooks useState
+- How to pass state between parent and child componenets
 
-## Available Scripts
+**tic-tac-toe**
 
-In the project directory, you can run:
+<img src="./src/media/tictactoe.png" width="120" height="120">
 
-### `npm start`
+## Description
+- It allows to players to play . Player 1 is 'X' and Player 2 is 'O'
+- As soon as the Player click the cell it displays that players symbol on the Square and the next player turn on the Board
+- Board is the parent and Square is the child.
+- When one player wins by putting their symbol in a row then the board displays the Winner.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Improvements
+- Right now , it gives the chance to click the same Square several times . So, Once the square is clicked by one player it must be disabled so that no other player will click again. (implemented)
+- Right now , it allows one to play though it announced the winner. So, disabling all the squares is must once the winner is announced.
+- It would be better if there is a way to restart the game.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
+- Download this project in your working directory through, \
+git clone https://github.com/vanisbala/react-tictactoe-game
+- cd into the new folder and type
+$ npm install
+it will install the required dependencies.
+- To run the react project
+$ npm start
+- You can add new actions are delete the existing actions in the list.
+- You can also modify the project to immit nclude new features.
 
-### `npm test`
+**Demo** \
+![fetch-kural](./src/media/tictactoe.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Built with
+- [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/Javascript)
+- [React](https://reactjs.org/)
 
-### `npm run build`
+## Deployed Link
+- [See live Site](https://vanisbala.github.io/react-fetch-kural/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Author
+### Vani 
+- [Link to Github](https://github.com/vanisbala)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Credits
+Thanks to MITxPRO for giving me the opportunity to work on this simple react project.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -1,6 +1,6 @@
 button {
-    background-color: #0c80f3;
-    border: 6px solid #0ff166;
+    background-color: #02090f;
+    border: 2px solid #77eca4;
     border-radius: 10px;
   }
   
@@ -8,9 +8,9 @@ button {
     width: 600px;
     height: 600px;
     margin: 0 auto;
-    background-color: #34495e;
-    color: rgb(204, 28, 28);
-    border: 6px solid #0b0d0f;
+    background-color: #1b436e;
+    color: #77eca4;
+    border: 1px solid #0b0d0f;
     border-radius: 10px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -18,15 +18,15 @@ button {
   }
   
   .grid-row {
-    border: 6px solid #739dc7;
+    border: 1px solid #77eca4;
     border-radius: 6px;
-    font-family: Helvetica;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 4em;
+    font-size: 3em;
     display: grid;
     grid-template-rows: 1fr;
     grid-template-columns: 1fr 1fr 1fr;
-    background-color: rgb(175, 70, 70);
+    background-color: #77eca4;
   }
   
   .block {
@@ -39,7 +39,7 @@ button {
   }
   
   .red {
-    color: red;
+    color:red;
   }
   
   .white {
